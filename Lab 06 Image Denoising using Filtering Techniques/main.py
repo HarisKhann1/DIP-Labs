@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # Load the noisy image
-image = cv2.imread('Haris.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('temp.png', cv2.IMREAD_GRAYSCALE)
 
 # Check if the image was loaded successfully
 if image is None:
